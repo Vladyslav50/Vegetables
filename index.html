@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Six home work HTML" />
+    <!-- для Адаптиву : -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>goit-markup-hw-02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="proba">
+      <!-- Menu Mobile -->
+      <button class="open-menu-btn" type="button" data-menu-open>
+        <svg class="open-menu-pic" width="32" height="22">
+          <use href="./images/icons.svg#icon-hamburger"></use>
+        </svg>
+      </button>
+
+      <button class="mob-modal-close" type="button" data-menu-close>
+        <svg class="modal-close-lebel" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <section>
+      <!-- Додаємо .is-hidden для JS -->
+      <div class="mob-menu is-hidden" data-menu>
+        <!-- мобільний хедер -->
+
+        <div class="mob-mob-header">
+          <div class="container mob-header-container">
+            <div class="mob-header-header">
+              <div class="mob-nav-header">
+                <a href="./index.html" class="mob-header-logo">
+                  <svg class="mob-veggie-button" width="16" height="16">
+                    <use href="./images/icons.svg#icon-logo-olive"></use>
+                  </svg>
+                </a>
+
+                <a class="mob-text-header-logo" href="./index.html"
+                  >VEGGIEBOOST</a
+                >
+              </div>
+            </div>
+            <button class="mob-close-button" type="button" data-menu-close>
+              <svg class="mob-close-button-mob" width="24" height="24">
+                <use href="./images/icons.svg#icon-x"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- <use href="./img/svg/symbol-defs.svg#icon-vector"></use> -->
+
+        <!-- мобільний Хедер -->
+
+        <div class="mobil">
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="./index.html">How It Works</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">Vegetables</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">Contacts</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">
+                <svg class="mob-menu-basket" width="20" height="20">
+                  <use href="./images/icons.svg#icon-shopping-cart"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    #icon-shopping-cart
+
+    <main></main>
+
+    <footer></footer>
+
+    <!--Модалка +++  is-hidden-->
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
